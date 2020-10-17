@@ -1,4 +1,8 @@
-
+// Dev: Chad
+// Studio : Monger Studio
+// Date: 10/20/2020
+// file: index.js
+// Description: The main JS file for the Survive game.
 $(document).ready(function () {
 
     var player = {

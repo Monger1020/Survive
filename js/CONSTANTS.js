@@ -11,9 +11,9 @@ var GAMEVAR = {
 const GAMECONST = {
     Trade:{
         WoodCutting: 0,
-        Fishing: 0,
-        CampFire: 0,
-        Mining: 0,
+        Fishing: 1,
+        CampFire: 2,
+        Mining: 3,
     },
     equipmentSlots:{
         Helm: 0,

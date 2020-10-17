@@ -13,6 +13,13 @@ const trees = [
         xp: 15,
         media: ""
     },
+    {
+        type: "Oak",
+        level: "1",
+        interval: 5000,
+        xp:20,
+        media: "",
+    },
 ];
 
 var bonusSpeed = [0, 5, 10, 20, 30, 35, 40, 45, 50];
@@ -23,7 +30,7 @@ var treeCuttingHandler = null;
 
 function cutTree(treeID) {
     console.log("Cutting Wood");
-    if (treeID != null && !currentlyCutting) {
+    if (treeID != null && !currentlyCutting && treeCutLimit > 1) {
         currentlyCutting = true;
         treeCuttingHandler = treeID
         console.log(trees[treeCuttingHandler].type)
